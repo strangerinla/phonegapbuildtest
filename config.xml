@@ -10,4 +10,8 @@
     <content src="index.html" />
     <access origin="*" />
     
+    <config-file target="AndroidManifest.xml" parent="/*" mode="merge">
+    	<uses-permission android:name="android.permission.INTERNET"/>
+    </config-file>
+    
 </widget>
